@@ -11,9 +11,11 @@
 |
 */
 
-Route::get('/', ['as' => 'home', function () {
-    return view('layout');
-}]);
+Route::get('/', ['as' => 'home', 'uses' => 'SiteController@index']);
+
+Route::get('/register', ['as' => 'reg', 'uses' => 'SiteController@register']);
+
+Route::post('teamRegister', ['as' => 'teamReg', 'uses' => 'RegisterController@register']);
 
 /*
 |--------------------------------------------------------------------------
