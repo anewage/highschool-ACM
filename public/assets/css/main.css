@@ -2239,6 +2239,14 @@ myset {
 		font-size: 0.9em;
 		font-weight: 300;
 		margin: 0 0 1em 0;
+		text-align: right;
+		width: 400px;
+		margin: auto;
+		margin-bottom: 10px;
+	}
+	label.title {
+		margin-top: 30px;
+		font-size: 1.3em;
 	}
 
 	input[type="text"],
@@ -2246,6 +2254,7 @@ myset {
 	input[type="email"],
 	select,
 	textarea {
+		text-align: center;
 		margin: auto;
 		margin-bottom: 15px;
 		max-width: 400px;
@@ -2265,7 +2274,7 @@ myset {
 		outline: 0;
 		padding: 0 1em;
 		text-decoration: none;
-		width: 100%;
+		/*width: 100%;*/
 	}
 
 		input[type="text"]:invalid,
