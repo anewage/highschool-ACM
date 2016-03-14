@@ -13,7 +13,6 @@ class CreateRegRecordsTable extends Migration
     public function up()
     {
         Schema::create('registeredTeams', function (Blueprint $table) {
-            ['teamName', 'highschool', 'p1Name', 'p1Phone', 'p2Name', 'p2Phone', 'p3Name', 'p3Phone', 'coachName', 'coachMail', 'coachPhone' ];
             $table->increments('id');
             $table->timestamps();
             $table->string('teamName');
