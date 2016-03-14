@@ -18,9 +18,9 @@
         <h1 id="logo"><a href="{{route('home')}}">مسابقات برنامه‌نویسی دانش‌آموزی</a></h1>
         <nav id="nav">
             <ul>
-                <li><a href="{{url("about")}}">درباره مسابقات</a></li>
+                <li><a href="{{route('about')}}">درباره مسابقات</a></li>
                 <li>
-                    <a href="{{url("past_contests")}}">دوره‌های گذشته</a>
+                    <a href="{{route('past')}}">دوره‌های گذشته</a>
                     {{--<ul>--}}
                     {{--<li><a href="left-sidebar.html">Left Sidebar</a></li>--}}
                     {{--<li><a href="right-sidebar.html">Right Sidebar</a></li>--}}
@@ -39,7 +39,7 @@
                     {{--</li>--}}
                     {{--</ul>--}}
                 </li>
-                <li><a href="{{url("contact")}}">ارتباط با ما</a></li>
+                <li><a href="{{route('contact')}}">ارتباط با ما</a></li>
                 <li><a href="{{route('reg')}}" class="button special">ثبت‌نام</a></li>
             </ul>
         </nav>

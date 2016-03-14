@@ -21,7 +21,7 @@ class RegisterController extends Controller
     {
         $record = new Record($this->request->all());
         $record->save();
-        return view('pages.registeration_completed', compact('record', $record->toArray()));
+        return view('pages.registeration_completed', compact('record', $record));
     }
 
     private function store($data)

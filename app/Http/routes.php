@@ -15,6 +15,12 @@ Route::get('/', ['as' => 'home', 'uses' => 'SiteController@index']);
 
 Route::get('/register', ['as' => 'reg', 'uses' => 'SiteController@register']);
 
+Route::get('/about', ['as' => 'about', 'uses' => 'SiteController@about']);
+
+Route::get('/past_contests', ['as' => 'past', 'uses' => 'SiteController@history']);
+
+Route::get('/contact_info', ['as' => 'contact', 'uses' => 'SiteController@contact']);
+
 Route::post('teamRegister', ['as' => 'teamReg', 'uses' => 'RegisterController@register']);
 
 /*
