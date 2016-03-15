@@ -4,6 +4,9 @@
 <head>
     <title>دومین دوره مسابقات برنامه‌نویسی دانش‌آموزی امیرکبیر</title>
     <meta charset="utf-8" />
+    <meta name="description" content="دومین دوره مسابقات برنامه‌نویسی دانش‌آموزی امیرکبیر، ۲۶ فروردین ماه ۹۵">
+    <meta name="keywords" content="ACM, highschool, highschool programming, programming contest, acm icpc, icpc, highschool icpc, ">
+    <meta name="author" content="Hege Refsnes">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
     <link rel="stylesheet" href="assets/css/main.css" />
