@@ -6,7 +6,7 @@
     <div class="content">
         <header>
             <h2>دومین دوره مسابقات ملی برنامه‌نویسی دانش‌آموزی امیرکبیر</h2>
-            <p>۲۶ فروردین ماه<br />
+            <p>۲۷ فروردین ماه<br />
                 دانشگاه صنعتی امیرکبیر</p>
         </header>
         <span class="image"><img src="../images/ACMLOGO.jpg" alt="" /></span>
