@@ -63,12 +63,19 @@
             </header>
             <div id="map"></div>
             <script>
+                var markers = [];
                 function initMap() {
                     var mapDiv = document.getElementById('map');
                     var map = new google.maps.Map(mapDiv, {
                         center: {lat: 35.70392, lng: 51.40972},
                         zoom: 16
                     });
+                    var marker = new google.maps.Marker({
+                        position: {lat: 35.70392, lng: 51.40972},
+                        map: map
+                    });
+                    markers.push(marker);
+                    setMapOnAll(map);
                 }
             </script>
             <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
