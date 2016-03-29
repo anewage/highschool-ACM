@@ -51,6 +51,11 @@ class RegisterController extends Controller
         }
     }
 
+    public function paymentOK () {
+        $data = $this->request->all();
+        return view('pages.payment_done', ['OrderID' => $data['id']]);
+    }
+
     public function getPaymentID () {
 
         $data = $this->request->all();

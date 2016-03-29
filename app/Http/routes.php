@@ -21,11 +21,14 @@ Route::get('/past_contests', ['as' => 'past', 'uses' => 'SiteController@history'
 
 Route::get('/contact_info', ['as' => 'contact', 'uses' => 'SiteController@contact']);
 
+Route::get('payment_done', ['as' => 'payment_done', 'uses' => 'RegisterController@paymentOK']);
+
 Route::post('payment',['as' => 'payment', 'uses' =>  'RegisterController@getPaymentID']);
 
 Route::post('teamRegister', ['as' => 'teamReg', 'uses' => 'RegisterController@register']);
 
 Route::post('store', ['as' => 'store', 'uses' => 'RegisterController@store']);
+
 
 /*
 |--------------------------------------------------------------------------

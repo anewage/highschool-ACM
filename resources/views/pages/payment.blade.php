@@ -2,23 +2,21 @@
 
 @section('content')
     <section class="wrapper style1 special fade-up">
-        <h2>چند قدم تا تکیل ثبت نام مانده...</h2>
+        <h2>چند قدم تا تکمیل ثبت نام مانده...</h2>
         <p>برای تکمیل ثبت‌نام خود،‌لطفاْ‌هزینه شرکت در مسابقه را از طریق درگاه پرداخت زیر پرداخت نموده و شماره فاکتور را در زیر وارد کنید:</p>
         {{Form::open(['route' => 'payment', 'target' => '_blank' ])}}
         {{Form::hidden('api', '34763-hdemf-47571-88452-xuv6f8fc4o4vi7p1vg46767458')}}
         {{Form::hidden('price','300000')}}
-        {{Form::hidden('callback', 'https://highschool.icpc.aut.ac.ir' )}}
+        {{Form::hidden('callback', 'https://highschool.icpc.aut.ac.ir/payment_done?id='.$record['id'] )}}
         {{Form::hidden('description', 'AUT High School Programming Contest payment' )}}
         @foreach($record as $key => $value)
             {!! Form::hidden($key, $value) !!}
         @endforeach
-        {{--{{Form::hidden('record', $record)}}--}}
         {{Form::submit('اتصال به درگاه پرداخت',['class' => 'special'])}}
         {{Form::close()}}
 
 
         {{Form::open(['route' => 'store'])}}
-        {{--{{Form::hidden('record', $record)}}--}}
         @foreach($record as $key => $value)
             {!! Form::hidden($key, $value) !!}
         @endforeach
