@@ -26,6 +26,7 @@ class CreateRegRecordsTable extends Migration
             $table->string('coachName');
             $table->string('coachMail');
             $table->string('coachPhone');
+            $table->string('payment_id');
         });
     }
 

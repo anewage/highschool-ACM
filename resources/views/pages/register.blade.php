@@ -23,6 +23,8 @@
                     <span>نام و نام خانوادگی سرپرست تیم:</span>{{ Form::text('coachName', null, ['class' => '6u 12u$(xsmall)', 'placeholder' => 'نام و نام خانوادگی سرپرست تیم']) }}
                     <span>ایمیل سرپرست تیم:</span>{{ Form::text('coachMail', null, ['class' => '6u 12u$(xsmall)', 'placeholder' => 'ایمیل (برای پیگیری‌های بعدی)']) }}
                     <span>شماره تماس سرپرست تیم:</span>{{ Form::text('coachPhone', null, ['class' => '6u 12u$(xsmall)', 'placeholder' => 'شماره تلفت سرپرست تیم']) }}
+            {{ Form::label('paymentInfo', 'اطلاعات پرداخت',['style' => 'margin-top: 30px', 'class' => 'title']) }}
+                <p>با اتصال به درگاه پرداخت زیر، شماره فاکتور را </p>
             {{ Form::submit('ثبت‌نام', ['class' => 'special']) }}
         {{ Form:: close() }}
     </section>

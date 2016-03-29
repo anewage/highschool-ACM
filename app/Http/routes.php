@@ -21,7 +21,11 @@ Route::get('/past_contests', ['as' => 'past', 'uses' => 'SiteController@history'
 
 Route::get('/contact_info', ['as' => 'contact', 'uses' => 'SiteController@contact']);
 
+Route::post('payment',['as' => 'payment', 'uses' =>  'RegisterController@getPaymentID']);
+
 Route::post('teamRegister', ['as' => 'teamReg', 'uses' => 'RegisterController@register']);
+
+Route::post('store', ['as' => 'store', 'uses' => 'RegisterController@store']);
 
 /*
 |--------------------------------------------------------------------------
@@ -35,5 +39,6 @@ Route::post('teamRegister', ['as' => 'teamReg', 'uses' => 'RegisterController@re
 */
 
 Route::group(['middleware' => ['web']], function () {
-    //
+
+
 });
