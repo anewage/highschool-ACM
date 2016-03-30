@@ -5,9 +5,9 @@
         <h2>چند قدم تا تکمیل ثبت نام مانده...</h2>
         <p>برای تکمیل ثبت‌نام خود،‌لطفاْ‌هزینه شرکت در مسابقه را از طریق درگاه پرداخت زیر پرداخت نموده و شماره فاکتور را در زیر وارد کنید:</p>
         {{Form::open(['route' => 'payment', 'target' => '_blank' ])}}
-        {{Form::hidden('api', '37822-ovfon-46246-58104-p6x0p7oljnxix0r61u55627461')}}
+        {{Form::hidden('api', '31148-pejlc-46554-18340-gpgc51w6godpiehsd376177687')}}
         {{Form::hidden('price','300000')}}
-        {{Form::hidden('callback', 'https://highschool.icpc.aut.ac.ir/payment_done?id='.$record['id'] )}}
+        {{Form::hidden('callback', 'http://highschool.icpc.aut.ac.ir/payment_done?id='.$record['id'] )}}
         {{Form::hidden('description', 'AUT High School Programming Contest payment' )}}
         @foreach($record as $key => $value)
             {!! Form::hidden($key, $value) !!}
@@ -20,7 +20,7 @@
         @foreach($record as $key => $value)
             {!! Form::hidden($key, $value) !!}
         @endforeach
-        {{Form::hidden('api', '37822-ovfon-46246-58104-p6x0p7oljnxix0r61u55627461')}}
+        {{Form::hidden('api', '31148-pejlc-46554-18340-gpgc51w6godpiehsd376177687')}}
         {{Form::hidden('price','300000')}}
         <span>شماره فاکتور:</span>{{ Form::text('payment_id', null, ['class' => '6u 12u$(xsmall)', 'placeholder' => 'شماره فاکتور پرداخت']) }}
         {{Form::submit('تکمیل ثبت‌نام',['class' => 'special'])}}
