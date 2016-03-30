@@ -12,7 +12,7 @@ class CreateRegRecordsTable extends Migration
      */
     public function up()
     {
-        Schema::create('registered_teams', function (Blueprint $table) {
+        Schema::create('registeredteams', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
             $table->string('teamName');
@@ -37,6 +37,6 @@ class CreateRegRecordsTable extends Migration
      */
     public function down()
     {
-        Schema::drop('registered_teams');
+        Schema::drop('registeredteams');
     }
 }
