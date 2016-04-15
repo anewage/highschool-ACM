@@ -10,6 +10,11 @@
             <div class="box alt">
                 <div class="row uniform">
                     <section class="4u 6u$(medium) 12u$(xsmall)" style="">
+                        <span class="icon alt major fa-phone"></span>
+                        <h3>شماره تماس ما</h3>
+                        <p><a href="skype:skype_user?+989210347625" target="_blank" style="direction: rtl;">۰۹۲۱۰۳۴۷۶۲۵</a></p>
+                    </section>
+                    <section class="4u 6u$(medium) 12u$(xsmall)" style="">
                         <span class="icon alt major fa-envelope"></span>
                         <h3>ایمیل ما</h3>
                         <p><a href="mailto:ceit.ssc@aut.ac.ir" target="_blank">ceit.ssc@aut.ac.ir</a></p>

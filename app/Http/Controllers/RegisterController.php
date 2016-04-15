@@ -19,6 +19,17 @@ class RegisterController extends Controller
 
     public function register()
     {
+//        $this->validate($this->request,[
+//            'teamName' => 'required|alpha_num',
+//            'highschool' => 'required|alpha_num',
+//            'p1Name' => 'required|alpha_num',
+//            'p2Name' => 'required|alpha_num',
+//            'p3Name' => 'required|alpha_num',
+//            'coachName' => 'required|alpha_num',
+//            'coachMail' => 'required|alpha_num',
+//            'coachPhone' => 'required|alpha_num'
+//        ]);
+
         $record = new Record($this->request->all());
         $att = $record->getAttributes();
         if (
