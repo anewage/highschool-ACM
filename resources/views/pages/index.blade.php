@@ -47,7 +47,7 @@
     <div class="content">
         <header>
             <h2>فکر کنید، حل کنید، بادکنک بگیرید!</h2>
-            <p>یکم بیشتر درباره مسابقه صحبت می‌کنیم.</p>
+            <p>کمی بیشتر درباره مسابقه صحبت می‌کنیم.</p>
         </header>
         <p>مسابقات برنامه نویسی به مسابقاتی گفته میشود که در آن شرکت کنندگان با نوشتن برنامه های کامپیوتری و
             طراحی الگوریتم به رقابت می پردازند. این مسابقات معمولا به صورت انفرادی و یا تیم های متشکل از 3 نفر
@@ -68,12 +68,51 @@
             <h2>برگزار کننده این مسابقات کیست؟</h2>
             <p>درباره انجمن علمی دانشجویی دانشکده مهندسی کامپیوتر و فناوری اطلاعات دانشگاه صنعتی امیرکبیر</p>
         </header>
-        <p>انجمن‌های علمی به عنوان تنها نهاد علمی-دانشجویی دانشگاه صنعتی امیرکبیر وظیفه برگزاری رویدادهای مختلف علمی را برعهده دارد. این نهاد از دانشجویان دانشگاه تشکیل شده است و تحت نظارت اداره کل انجمن‌های علمی دانشگاه مسابقات و چالش هایی را برای دانشجویان برگزار می‌کند</p>
+        <p>انجمن‌های علمی به عنوان تنها نهاد علمی-دانشجویی دانشگاه صنعتی امیرکبیر وظیفه برگزاری رویدادهای مختلف علمی را برعهده دارد. این نهاد از دانشجویان دانشگاه تشکیل شده است و تحت نظارت اداره کل انجمن‌های علمی دانشگاه مسابقات و چالش هایی را  برگزار می‌کند.</p>
         <ul class="actions">
             <li><a href="{{route('about')}}#about_ssc" class="button">اطلاعات بیشتر</a></li>
         </ul>
     </div>
     <a href="#four" class="goto-next scrolly"></a>
+</section>
+
+<section id="four" class="wrapper style1 special fade-up">
+    <div class="container">
+        <header class="major">
+            <h2>برگزار کنندگان</h2>
+            <p>برگزارکنندگان این رویداد</p>
+        </header>
+        <div class="box alt">
+            <div class="row uniform">
+                <section class="4u 6u(medium) 12u$(xsmall)">
+                    <span><img src="../images/ceitssc.png"></span>
+                </section>
+                <section class="4u 6u$(medium) 12u$(xsmall)">
+                    <span><img src="../images/ceit.png"></span>
+                </section>
+                {{--<section class="4u$ 6u(medium) 12u$(xsmall)">--}}
+                {{--<span class="icon alt major fa-flask"></span>--}}
+                {{--<h3>Cubilia cep lobortis</h3>--}}
+                {{--<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>--}}
+                {{--</section>--}}
+                {{--<section class="4u 6u$(medium) 12u$(xsmall)">--}}
+                {{--<span class="icon alt major fa-paper-plane"></span>--}}
+                {{--<h3>Non semper interdum</h3>--}}
+                {{--<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>--}}
+                {{--</section>--}}
+                {{--<section class="4u 6u(medium) 12u$(xsmall)">--}}
+                {{--<span class="icon alt major fa-file"></span>--}}
+                {{--<h3>Odio laoreet accumsan</h3>--}}
+                {{--<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>--}}
+                {{--</section>--}}
+                {{--<section class="4u$ 6u$(medium) 12u$(xsmall)">--}}
+                {{--<span class="icon alt major fa-lock"></span>--}}
+                {{--<h3>Massa arcu accumsan</h3>--}}
+                {{--<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>--}}
+                {{--</section>--}}
+            </div>
+        </div>
+    </div>
 </section>
 
 <!-- Four -->
@@ -83,18 +122,17 @@
             <h2>حامیان دومین دوره مسابقات</h2>
             <p>لیست موسسات و برندهایی که از دومین دوره مسابقات ملی برنامه‌نویسی دانش‌آموزی امیرکبیر حمایت می‌کنند</p>
         </header>
-        {{--<div class="box alt">--}}
-            {{--<div class="row uniform">--}}
-                {{--<section class="4u 6u(medium) 12u$(xsmall)">--}}
-                    {{--<span class="icon alt major fa-area-chart"></span>--}}
-                    {{--<h3>Ipsum sed commodo</h3>--}}
-                    {{--<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>--}}
-                {{--</section>--}}
-                {{--<section class="4u 6u$(medium) 12u$(xsmall)">--}}
-                    {{--<span class="icon alt major fa-comment"></span>--}}
-                    {{--<h3>Eleifend lorem ornare</h3>--}}
-                    {{--<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>--}}
-                {{--</section>--}}
+        <div class="box alt">
+            <div class="row uniform">
+                <section class="4u 6u(medium) 12u$(xsmall)">
+                    <span><img src="../images/sponlogo1.png"></span>
+                </section>
+                <section class="4u 6u$(medium) 12u$(xsmall)">
+                    <span><img src="../images/sponlogo2.png"></span>
+                </section>
+                <section class="4u 6u$(medium) 12u$(xsmall)">
+                    <span><img src="../images/sponlogo3.png"></span>
+                </section>
                 {{--<section class="4u$ 6u(medium) 12u$(xsmall)">--}}
                     {{--<span class="icon alt major fa-flask"></span>--}}
                     {{--<h3>Cubilia cep lobortis</h3>--}}
@@ -115,8 +153,8 @@
                     {{--<h3>Massa arcu accumsan</h3>--}}
                     {{--<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>--}}
                 {{--</section>--}}
-            {{--</div>--}}
-        {{--</div>--}}
+            </div>
+        </div>
     </div>
 </section>
 @endsection
