@@ -24,7 +24,7 @@
         {{ Form::label('mem3Props', 'عضو سوم', ['style' => 'margin-top: 30px']) }}
         <span>نام و نام خانوادگی عضو سوم تیم:</span>{{ Form::text('p3Name', null, ['class' => '6u 12u$(xsmall)', 'placeholder' => 'نام و نام خانوادگی عضو سوم تیم']) }}
         <span>شماره تماس عضو سوم تیم:</span>{{ Form::text('p3Phone', null, ['class' => '6u 12u$(xsmall)', 'placeholder' => 'شماره تلفن عضو سوم تیم']) }}
-        {{ Form::label('coachInfo', 'اطلاعات سرپرست تیم (الزاماً باید یکی از اعضای کادر اجرایی دبیرستان باشد)',['style' => 'margin-top: 30px', 'class' => 'title']) }}
+        {{ Form::label('coachInfo', 'اطلاعات سرپرست تیم (الزاماً باید از کادر دبیرستان یا پژوهش‌سرا باشد)',['style' => 'margin-top: 30px', 'class' => 'title']) }}
         <span>نام و نام خانوادگی سرپرست تیم:</span>{{ Form::text('coachName', null, ['class' => '6u 12u$(xsmall)', 'placeholder' => 'نام و نام خانوادگی سرپرست تیم']) }}
         <span>ایمیل سرپرست تیم:</span>{{ Form::text('coachMail', null, ['class' => '6u 12u$(xsmall)', 'placeholder' => 'ایمیل (برای پیگیری‌های بعدی)']) }}
         <span>شماره تماس سرپرست تیم:</span>{{ Form::text('coachPhone', null, ['class' => '6u 12u$(xsmall)', 'placeholder' => 'شماره تلفت سرپرست تیم']) }}
