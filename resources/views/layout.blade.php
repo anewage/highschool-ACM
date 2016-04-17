@@ -67,11 +67,11 @@
                 function initMap() {
                     var mapDiv = document.getElementById('map');
                     var map = new google.maps.Map(mapDiv, {
-                        center: {lat: 35.70392, lng: 51.40972},
+                        center: {lat: 35.703896, lng: 51.408277},
                         zoom: 16
                     });
                     var marker = new google.maps.Marker({
-                        position: {lat: 35.70392, lng: 51.40972},
+                        position: {lat: 35.703896, lng: 51.408277},
                         map: map
                     });
                     markers.push(marker);
