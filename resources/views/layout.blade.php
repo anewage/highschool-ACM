@@ -43,7 +43,7 @@
                     {{--</ul>--}}
                 </li>
                 <li><a href="{{route('contact')}}">ارتباط با ما</a></li>
-                <li><a href="https://evand.ir/events/autispc" class="button special">ثبت‌نام</a></li>
+                <li><a href="https://evand.ir/events/autispc" target="_blank" class="button special">ثبت‌نام</a></li>
             </ul>
         </nav>
     </header>
