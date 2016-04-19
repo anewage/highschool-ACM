@@ -30,5 +30,8 @@
         <span>شماره تماس سرپرست تیم:</span>{{ Form::text('coachPhone', null, ['class' => '6u 12u$(xsmall)', 'placeholder' => 'شماره تلفت سرپرست تیم']) }}
         {{ Form::submit('ثبت‌نام', ['class' => 'special']) }}
         {{ Form::close() }}
+
+
     </section>
+
 @endsection
