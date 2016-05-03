@@ -13,7 +13,7 @@
 
 Route::get('/', ['as' => 'home', 'uses' => 'SiteController@index']);
 
-Route::get('/register', ['as' => 'reg', 'uses' => 'SiteController@register']);
+//Route::get('/register', ['as' => 'reg', 'uses' => 'SiteController@register']);
 
 Route::get('/about', ['as' => 'about', 'uses' => 'SiteController@about']);
 
@@ -25,7 +25,7 @@ Route::get('payment_done', ['as' => 'payment_done', 'uses' => 'RegisterControlle
 
 Route::post('payment',['as' => 'payment', 'uses' =>  'RegisterController@getPaymentID']);
 
-Route::post('teamRegister', ['as' => 'teamReg', 'uses' => 'RegisterController@register']);
+//Route::post('teamRegister', ['as' => 'teamReg', 'uses' => 'RegisterController@register']);
 
 Route::post('store', ['as' => 'store', 'uses' => 'RegisterController@store']);
 
